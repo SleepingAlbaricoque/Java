@@ -15,6 +15,6 @@ public class _08 {
 		
 		String id = sc.next();
 		
-		System.out.printf("%s??!");
+		System.out.printf(id+"??!");
 	}
 }
