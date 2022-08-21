@@ -67,7 +67,7 @@ public class WhileTest {
 		// continue
 		
 		int total = 0;
-		int j = 1;
+		int j = 0;
 		
 		while(j <= 10) {
 			
