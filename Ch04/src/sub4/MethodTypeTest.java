@@ -10,11 +10,11 @@ public class MethodTypeTest {
 
 	public static void main(String[] args) {
 		
-		double r1 = type1(1.1);
-		double r2 = type1(1.2);
-		
-		System.out.println("r1: " +r1);
-		System.out.println("r2: " +r2);
+		double r1 =type1(1.1);
+		double r2 =type1(1.2);
+	
+		System.out.println("r1: "+r1);
+		System.out.println("r2: "+r2);
 		
 		type2(true);
 		type2(false);
@@ -61,6 +61,8 @@ public class MethodTypeTest {
 	//type4: 매개변수 X, 리턴값 X
 	public static void type4() {
 		
-		System.out.println("type4 result : " +type1(1.2));
+		System.out.println("r4의 result: " + type1(1.2));
+		
+	
 	}
 }
