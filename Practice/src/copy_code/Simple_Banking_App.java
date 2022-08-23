@@ -38,10 +38,11 @@ class BankAccount
 	void deposit(int amount)
 	{
 		if(amount != 0 && amount >0) {
-			balance = balance + amount;
+			balance += amount;
 			previousTransaction = amount;
 		}
 	}
+	
 	
 	void withdraw(int amount)
 	{
@@ -51,7 +52,7 @@ class BankAccount
 		if(balance >= amount) {
 			
 			if(amount != 0 && amount >0) {
-				balance = balance - amount;
+				balance -= amount;
 				previousTransaction = -amount;
 				
 		}	else {
