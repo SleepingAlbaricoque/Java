@@ -1,8 +1,8 @@
-package ch05;
+package ch05.classpart;
 
 /* 날짜 : 2022.08.24
  * 이름 : 조수빈
- * 내용 : 외부에 테스트용 클래스를 생성하기
+ * 내용 : 외부에 테스트용 클래스를 생성하기 p.146
  */
 public class StudentTest {
 

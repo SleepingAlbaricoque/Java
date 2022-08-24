@@ -1,4 +1,4 @@
-package ch05;
+package ch05.classpart;
 
 /* 날짜 : 2022.08.24
  * 이름 : 조수빈
