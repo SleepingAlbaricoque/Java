@@ -24,6 +24,7 @@ public class EncapsuleTest {
 		
 		// Setter를 통한 속성 변경 <- 정보 캡슐화로 여기서 직접 sonata.name = "은색"; 할 수 없음
 		sonata.setColor("은색");
+		System.out.println(sonata.getName());
 		
 		// 기능
 		sonata.speedUp(80);
