@@ -1,4 +1,4 @@
-package Step01;
+package step01;
 
 /*
  * 날짜 : 2022.08.19
