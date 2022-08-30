@@ -1,4 +1,4 @@
-package part4;
+package part4.objects_in_a_list;
 
 /*
  * 날짜 : 2022.08.28

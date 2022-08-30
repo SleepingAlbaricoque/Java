@@ -1,4 +1,4 @@
-package part4.items;
+package part4.objects_in_a_list.items;
 
 /* 날짜 : 2022.08.28
  * 이름 : 조수빈

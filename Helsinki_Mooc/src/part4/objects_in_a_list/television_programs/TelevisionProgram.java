@@ -1,4 +1,4 @@
-package part4.television_programs;
+package part4.objects_in_a_list.television_programs;
 
 public class TelevisionProgram {
 

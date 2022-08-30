@@ -1,4 +1,4 @@
-package part4.items;
+package part4.objects_in_a_list.items;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

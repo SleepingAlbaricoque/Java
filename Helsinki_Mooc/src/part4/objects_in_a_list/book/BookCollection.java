@@ -1,4 +1,4 @@
-package part4.book;
+package part4.objects_in_a_list.book;
 
 import java.util.ArrayList;
 import java.util.Scanner;

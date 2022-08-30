@@ -1,4 +1,4 @@
-package part4.personal_information;
+package part4.objects_in_a_list.personal_information;
 
 /*
  * 날짜 : 2022.08.28
