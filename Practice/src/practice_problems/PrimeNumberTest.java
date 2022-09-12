@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class PrimeNumberTest {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("자연수 n을 입력해주세요: ");
-		System.out.println("프로그램을 종료하려면 엔터를 누르세요");
+	
 		while(true) {
+			System.out.println("자연수 n을 입력해주세요: ");
+			System.out.println("프로그램을 종료하려면 엔터를 누르세요");
 			String s = sc.nextLine();
 			if(s.isEmpty()) {
 				System.out.println("프로그램을 종료합니다");
@@ -32,8 +33,6 @@ public class PrimeNumberTest {
 					}
 			}
 		System.out.println();	
-		System.out.println("자연수 n을 입력해주세요: ");
-		System.out.println("프로그램을 종료하려면 엔터를 누르세요");
 			}
 		}
 	}
