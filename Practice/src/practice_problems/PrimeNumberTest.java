@@ -21,7 +21,7 @@ public class PrimeNumberTest {
 			}	
 			int n = Integer.valueOf(s);
 		
-			for(int i =1; i <= n; i++) {
+			for(int i =2; i <= n; i++) {
 				ArrayList<Integer> list = new ArrayList<>();
 					for(int j =1; j <= i; j++) {
 						if(i % j == 0) {
