@@ -12,9 +12,9 @@ import java.io.Serializable;
  * 내용 : 직렬화 실습하기
  */
 class Person implements Serializable{
-	private static final long serialVersionUID = -1503252402544036183L;
+	private static final long serialVersionUID = 204086479656258039L;
 	String name;
-	String job;
+	transient String job;
 	
 	public Person() {}
 	

@@ -12,6 +12,7 @@ public class InsertTest {
 	public static void main(String[] args) {
 		
 		// DB정보 
+		
 		String host = "jdbc:mysql://127.0.0.1:3306/java1db";
 		String user = "root";
 		String pass = "1234";
