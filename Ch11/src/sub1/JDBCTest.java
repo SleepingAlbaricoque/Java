@@ -17,7 +17,6 @@ public class JDBCTest {
 		try {
 			// 1단계 - JDBC 드라이버 로드
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			
 		
 			// 2단계 - 데이터베이스 접속
 			Connection conn = DriverManager.getConnection(host, user, pass); // 주소, 아이디, 비번
