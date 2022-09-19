@@ -24,5 +24,6 @@ public class ThreadAddTest {
 		
 		int total = tot1 + tot2;
 		System.out.println("1부터 100까지 합: " + total );
+		System.out.println(t1.getState());
 	}
 }

@@ -1,4 +1,4 @@
-package thread;
+package thread.start;
 
 /* 날짜 : 2022.09.19
  * 이름 : 조수빈
