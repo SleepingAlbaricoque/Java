@@ -1,0 +1,24 @@
+package ch13.stream;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+/* 날짜 : 2022.09.20
+ * 이름 : 조수빈
+ * 내용 : ArrayList에서 스트림 활용하기
+ */
+public class ArrayListStreamTest {
+	public static void main(String[] args) {
+		
+		List<String> sList = new ArrayList<String>();
+		sList.add("Tomas");
+		sList.add("Edward");
+		sList.add("Jack");
+		
+		Stream<String> stream = sList.stream();
+		stream.forEach(s -> System.out.println(s + " "));
+		
+		sList.stream().sorted().forEach(s -> System.out.println(s));
+	}
+}
