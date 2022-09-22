@@ -19,6 +19,7 @@ public class BookList {
 	      while (tmpnode.next != null)
 	         tmpnode = tmpnode.next;
 	         tmpnode.next = node;
+	         
 	      }
 	   }
 
@@ -41,9 +42,5 @@ public class BookList {
 	         this.book = book;
 	         next = null;
 	      }
-	      
-	      public String toString() {
-	    	  return book + ", " + next.book;
-	      }
-	   }
+	 }
 }
