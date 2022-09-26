@@ -1,0 +1,31 @@
+package test6;
+
+/* 날짜 : 2022.09.26
+ * 이름 : 조수빈
+ * 내용 : 자바 총정리 연습문제
+ * 
+ * 원주율 공식
+ * - pi = 4 x (1/1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ...)
+ * - 항 수가 늘어날 수록 정확도가 높아진다
+ */
+public class Test02 {
+	public static void main(String[] args) {
+		
+		boolean sign = false;
+		double pi = 0;
+		
+		for (int i =1; i <= 10000; i +=2) {
+			
+			if(sign == false) { // 나의 답 : i % 4 ==1
+				pi += 1.0/ i;
+				sign = true;
+			}
+			else {
+				pi -= 1.0 / i;
+				sign = false;
+			}
+			
+			System.out.printf("i =%d, PI = %f\n", i, 4 * pi);
+		}
+	}
+}
