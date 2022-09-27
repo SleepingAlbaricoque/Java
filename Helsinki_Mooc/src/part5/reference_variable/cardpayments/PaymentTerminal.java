@@ -1,4 +1,4 @@
-package part5.cardpayments;
+package part5.reference_variable.cardpayments;
 
 public class PaymentTerminal {
 	private double money;

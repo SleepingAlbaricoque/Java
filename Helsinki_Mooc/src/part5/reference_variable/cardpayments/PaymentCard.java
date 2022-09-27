@@ -1,4 +1,4 @@
-package part5.cardpayments;
+package part5.reference_variable.cardpayments;
 
 /* 날짜 : 2022.09.26
  * 이름 : 조수빈
