@@ -1,4 +1,4 @@
-package part7.sorting;
+package part7.sorting.searching;
 
 import java.util.Arrays;
 
