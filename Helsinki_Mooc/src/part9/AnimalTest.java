@@ -32,10 +32,10 @@ public class AnimalTest {
 		aniList.add(new Human());
 		aniList.add(new Tiger());
 		aniList.add(new Eagle());
-		// aniList.get(0).read();
+		// aniList.get(0).read(); cannot invoke the read() method even though it's an instance of the class Human since the instance has already been upcast to Animal
 
 		for(Animal ani : aniList) { // Because every element is stored as Animal type, this for loop works
-			ani.move();               // Each instance decides which overriding method to call
+			ani.move();             // Each instance decides which overriding method to call
 		}
 	}
 }
