@@ -1,4 +1,4 @@
-package part9.inheritance.taco_boxes;
+package part9.interface_practice.taco_boxes;
 
 /* 날짜 : 2022.10.21
  * 이름 : 조수빈

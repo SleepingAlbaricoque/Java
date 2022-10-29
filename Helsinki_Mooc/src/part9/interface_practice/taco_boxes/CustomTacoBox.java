@@ -1,4 +1,4 @@
-package part9.inheritance.taco_boxes;
+package part9.interface_practice.taco_boxes;
 
 public class CustomTacoBox implements TacoBox {
 	private int tacos;
