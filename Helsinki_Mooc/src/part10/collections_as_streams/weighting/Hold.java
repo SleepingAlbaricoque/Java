@@ -24,9 +24,9 @@ public class Hold {
     }
 
     public void printItems() {
-    	suitcases.stream().forEach(suitcase -> System.out.println(suitcase));
+    	suitcases.stream().forEach(suitcase -> suitcase.printItems());
     }
-
+    
     @Override
     public String toString() {
         if (this.suitcases.isEmpty()) {
