@@ -1,11 +1,10 @@
 package part11.processing_files.saveable_dictionary;
 
-import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.Map.Entry;
 
 public class SaveableDictionary {
 	private Map<String, String> dictionary;
@@ -26,7 +25,7 @@ public class SaveableDictionary {
 				String line = sc.nextLine();
 				String[] parts = line.split(":");
 				
-				add(parts[0], parts[1]);
+				dictionary.put(parts[0], parts[1]);
 			}
 			return true;
 			
@@ -37,7 +36,27 @@ public class SaveableDictionary {
 	}
 	
 	public boolean save() {
+		try {
+		PrintWriter writer = new PrintWriter(file);
 		
+		Map<String, String> alreadySaved = new HashMap<>();
+		dictionary.keySet().stream().forEach(word -> {
+			if(alreadySaved.containsKey(word)) {
+				return;
+			}
+			
+			String pair = word + ":" + dictionary.get(word);
+			writer.println(pair);
+			
+			alreadySaved.put(word, dictionary.get(word));
+		});
+		writer.close();
+		return true;
+		
+		}catch(Exception e) {
+			e.printStackTrace();
+			return false;
+		}
 	}
 	
 	public void add(String words, String translation) {
@@ -92,6 +111,8 @@ public class SaveableDictionary {
 		System.out.println(dictionary.translate("alla oleva"));
 		
 		dictionary.add("hej", "hi");
+		dictionary.add("hallo", "hello");
+		dictionary.add("hej", "hola");
 		
 		dictionary.save();
 	}

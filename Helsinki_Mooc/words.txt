@@ -1,0 +1,6 @@
+hallo:hello
+alla oleva:below
+apina:monkey
+olut:beer
+hej:hi
+hejj:hola
