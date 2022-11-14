@@ -1,4 +1,4 @@
-package part12.sum_these_for_me;
+package part12.type_parameters.sum_these_for_me;
 
 public class Program {
 	public static int sum(int[] array, int fromWhere, int toWhere, int smallest, int largest) {

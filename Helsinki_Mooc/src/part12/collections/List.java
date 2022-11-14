@@ -1,4 +1,4 @@
-package part12;
+package part12.collections;
 
 public class List<Type> {
 	private Type[] values;

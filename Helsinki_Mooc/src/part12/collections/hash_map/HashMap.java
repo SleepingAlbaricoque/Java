@@ -1,6 +1,6 @@
-package part12.hash_map;
+package part12.collections.hash_map;
 
-import part12.List;
+import part12.collections.List;
 
 public class HashMap<K, V> {
 	private List<Pair<K, V>>[] values; // note it's a user made List class, not the one that belongs to the 'util' package

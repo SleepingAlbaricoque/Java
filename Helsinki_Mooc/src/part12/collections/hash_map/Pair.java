@@ -1,4 +1,4 @@
-package part12.hash_map;
+package part12.collections.hash_map;
 
 public class Pair<K, V> {
 	private K key;
