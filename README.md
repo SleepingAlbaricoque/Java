@@ -1,3 +1,6 @@
+# Helsinki_Mooc
+[Helsinki 대학 자바 MOOC 수업](https://java-programming.mooc.fi/) 예제 수록
+
 # Java 수업예제
 
 ## Ch01. Java  개발환경 구축
@@ -89,9 +92,6 @@
 
 # Exam
 자바 총정리 및 간단한 코딩 테스트 문제 수록
-
-# Helsinki_Mooc
-[Helsinki 대학 자바 MOOC 수업](https://java-programming.mooc.fi/) 예제 수록
 
 # Performance_Evaluation
 수업 퀴즈 내용 모음
